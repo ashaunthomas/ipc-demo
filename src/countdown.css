@@ -1,11 +1,6 @@
-h1 {
+body {
     font-family:sans-serif;
-    color:#e97451;
+    background:#E97351;
     text-align:center;
-}
-
-button {
-    text-align:center;
-    margin-left:50%;
-    transform:translateX(-50%);
+    color:white;
 }

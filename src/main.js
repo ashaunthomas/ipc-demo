@@ -23,6 +23,8 @@ app.on('ready', _ => {
 });
 
 ipc.on('countdown-start', _ => {
-    console.log("message received!");
+    countdown(count => {
+        mainWindow.webContents.send('countdown',count);
+    });
 })
 
