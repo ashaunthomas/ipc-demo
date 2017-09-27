@@ -3,3 +3,9 @@ h1 {
     color:#e97451;
     text-align:center;
 }
+
+button {
+    text-align:center;
+    margin-left:50%;
+    transform:translateX(-50%);
+}
