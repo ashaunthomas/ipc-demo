@@ -4,3 +4,10 @@ body {
     text-align:center;
     color:white;
 }
+
+button {
+    height:100px;
+    color:white;
+    background:teal;
+    font-size:20px;
+}
