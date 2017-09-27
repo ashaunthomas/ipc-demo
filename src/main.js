@@ -5,12 +5,15 @@ const BrowserWindow = electron.BrowserWindow;
 
 let mainWindow;
 
-/* basic ready function call syntax*/
+// basic ready function call syntax
 app.on('ready', _ => {
     mainWindow = new BrowserWindow({
         height: 400,
         width: 400
-    })
+    });
+
+    //load view reference
+    mainWindow.loadURL(`file://${__dirname}/countdown.html`);
     
     mainWindow.on('closed', _ => {
         console.log("closed");
